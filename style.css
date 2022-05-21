@@ -8,13 +8,13 @@ body {
 h1 {
     font-size: 3em;
     letter-spacing: .6em;
-    padding-top: .6em;
-    padding-bottom: .6em;
+    padding-top: .3em;
+    padding-bottom: .3em;
 }
 
 h2 {
     font-size: 1.5em;
-    padding-bottom: .7em;
+    padding-bottom: .6m;
 }
 
 main { 
@@ -29,7 +29,7 @@ header {
 }
 
 section {
-    margin: auto 1em 3em 2em;
+    margin: auto 1em 1em 2em;
 }
 
 i {
@@ -37,7 +37,7 @@ i {
 }
 
 p {
-    margin: .2em auto
+    margin: .2em auto;
 }
 
 hr {
@@ -48,8 +48,9 @@ hr {
 
 h1, h2 {
     font-weight: 400;
-    margin-bottom: 0;
+    margin-bottom: 0.5em;
 }
+
 
 #mainLeft {
     border-right: 1px solid lightgray;
@@ -57,4 +58,7 @@ h1, h2 {
 
 a:visited{
     color: blue;
+}
+b{
+    margin-top: 0.1em;
 }
